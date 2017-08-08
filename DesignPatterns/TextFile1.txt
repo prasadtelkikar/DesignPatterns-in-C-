@@ -1,0 +1,2 @@
+﻿Need to study:
+	Advanced factory design patterns
