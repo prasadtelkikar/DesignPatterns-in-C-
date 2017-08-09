@@ -1,10 +1,9 @@
 ﻿/*Factory method design pattern:
  * It is used to create an object. Standard way to create an object.
  * Interface is used for creating an object.
- * 
  */
 using System;
-namespace DesignPatterns
+namespace DesignPatterns.Creational
     {
     /// <summary>
     /// Factory interface

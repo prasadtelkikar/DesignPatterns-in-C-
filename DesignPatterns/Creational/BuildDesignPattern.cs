@@ -3,10 +3,10 @@ using System.Collections.Generic;
 /*BuilderDesignPattern: Builder pattern builds a complex object by using step by step approach.
  * Builder interface defines the steps to build the final object. Builder is independent from object creation process
  */
-namespace DesignPatterns
+namespace DesignPatterns.Creational
     {
     /// <summary>
-    /// Vehicle base class
+    /// Vehicle base class - Product
     /// </summary>
     public class Vehicle
         {
@@ -48,7 +48,7 @@ namespace DesignPatterns
         }
 
     /// <summary>
-    /// Builder Interface 
+    /// Builder Interface - Interface for the product
     /// </summary>
     public interface IVehicleBuilder
         {
@@ -60,7 +60,7 @@ namespace DesignPatterns
         }
 
     /// <summary>
-    /// Consumer fo Builder interface
+    /// Consumer fo Builder interface - Implementation of different products
     /// </summary>
     public class HeroVehicle : IVehicleBuilder
         {
@@ -136,6 +136,9 @@ namespace DesignPatterns
             }
         }
 
+    /// <summary>
+    /// Client
+    /// </summary>
     class BuildDesignPattern
         {
         public static void Main (string[] args)

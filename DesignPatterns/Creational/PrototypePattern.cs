@@ -2,7 +2,7 @@
 /* It is used to create a duplicate objects or clone of current object.
  * It provides an interface for creating a part of a product. 
  */
-namespace DesignPatterns
+namespace DesignPatterns.Creational
     {
     public interface IEmployee
         {
